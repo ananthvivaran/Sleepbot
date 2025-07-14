@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  animation: slideShow 20s infinite;
+}
+
+@keyframes slideShow {
+  0% { background-image: url('bruce-mars-wBuPCQiweuA-unsplash.jpg'); }
+  33% { background-image: url('romain-briaux-DqYw4KMZYOE-unsplash.jpg'); }
+  66% { background-image: url('annie-spratt-bxt-tWSF-Ko-unsplash.jpg'); }
+  100% { background-image: url('youshau-xjZBHuyZDGo-unsplash.jpg'); }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.star {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #ffd700; /* Gold color for stars to pop on black */
+  border-radius: 50%;
+  box-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 15px #ffeb3b; /* Glowing effect */
+}
+
+.blink {
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}

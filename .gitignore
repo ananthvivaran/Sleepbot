@@ -1,0 +1,27 @@
+# Ignore model files and large data
+models/
+chunked_texts/
+*.gguf
+*.bin
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.npy
+
+# Node.js modules
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code workspace settings
+*.code-workspace
+.vscode/
+
+# Build output
+dist/
+build/

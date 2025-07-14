@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "sleepcorpus",
+			"path": "../../sleepcorpus"
+		},
+		{
+			"name": "sleepliness",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
